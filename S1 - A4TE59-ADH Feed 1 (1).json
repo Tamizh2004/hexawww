@@ -1,0 +1,1366 @@
+{
+  "meta": {
+    "triggerEventLog": {
+      "id": "7189fe301834923d7df268a2b36cde9c-978b4c814e1ee1ed"
+    },
+    "version": "1.13.0"
+  },
+  "processedPnr": {
+    "type": "pnr",
+    "id": "A4TE59-2026-04-21",
+    "bookingIdentifier": "A4TE59",
+    "version": "10",
+    "owner": {
+      "office": {
+        "id": "YMQAC010C",
+        "iataNumber": "69990874",
+        "systemCode": "AC",
+        "agentType": "AIRLINE"
+      },
+      "login": {
+        "initials": "SK",
+        "dutyCode": "SU",
+        "countryCode": "CA",
+        "cityCode": "YMQ"
+      }
+    },
+    "creation": {
+      "dateTime": "2026-04-21T16:12:00Z",
+      "pointOfSale": {
+        "office": {
+          "id": "YMQAC010C",
+          "iataNumber": "69990874",
+          "systemCode": "AC",
+          "agentType": "AIRLINE"
+        },
+        "login": {
+          "numericSign": "8501",
+          "initials": "RG",
+          "countryCode": "CA",
+          "cityCode": "YMQ"
+        }
+      },
+      "comment": "MANISH-AC/HEXARES01"
+    },
+    "lastModification": {
+      "dateTime": "2026-04-22T05:47:00Z",
+      "pointOfSale": {
+        "office": {
+          "id": "YULAC002A",
+          "iataNumber": "69991703",
+          "systemCode": "AC",
+          "agentType": "AIRLINE"
+        },
+        "login": {
+          "numericSign": "8141",
+          "initials": "SK",
+          "dutyCode": "SU",
+          "countryCode": "CA",
+          "cityCode": "YUL"
+        }
+      },
+      "comment": "/DCS-SYNCUS-8141SK/YULAC002A"
+    },
+    "queuingOffice": {
+      "id": "YMQAC010C"
+    },
+    "nip": 1,
+    "travelers": [
+      {
+        "type": "stakeholder",
+        "id": "A4TE59-2026-04-21-PT-2",
+        "sourceId": "610DE629000431F2",
+        "passengerTypeCode": "ADT",
+        "names": [
+          {
+            "firstName": "SSK",
+            "lastName": "SK"
+          }
+        ],
+        "gender": "UNKNOWN",
+        "identityDocuments": [
+          {
+            "type": "service",
+            "id": "A4TE59-2026-04-21-OT-15",
+            "code": "DOCS",
+            "subType": "SPECIAL_SERVICE_REQUEST",
+            "serviceProvider": {
+              "code": "AC"
+            },
+            "status": "HK",
+            "nip": 1,
+            "creation": {
+              "dateTime": "2026-04-21T16:11:00Z",
+              "pointOfSale": {
+                "office": {
+                  "id": "YMQAC010C"
+                }
+              }
+            },
+            "document": {
+              "gender": "MALE",
+              "name": {
+                "fullName": "SSK SK",
+                "firstName": "SSK",
+                "lastName": "SK"
+              },
+              "birthDate": "1991-07-27"
+            },
+            "text": "////27JUL91/M//SK/SSK"
+          },
+          {
+            "type": "service",
+            "id": "A4TE59-2026-04-21-OT-16",
+            "code": "DOCS",
+            "subType": "SPECIAL_SERVICE_REQUEST",
+            "serviceProvider": {
+              "code": "AC"
+            },
+            "status": "HK",
+            "nip": 1,
+            "creation": {
+              "dateTime": "2026-04-21T16:11:00Z",
+              "pointOfSale": {
+                "office": {
+                  "id": "YMQAC010C"
+                }
+              }
+            },
+            "document": {
+              "gender": "MALE",
+              "name": {
+                "fullName": "SSK SK",
+                "firstName": "SSK",
+                "lastName": "SK"
+              },
+              "birthDate": "1991-07-27"
+            },
+            "text": "////27JUL91/M//SK/SSK"
+          }
+        ],
+        "contacts": {
+          "collection": [
+            {
+              "type": "contact",
+              "id": "A4TE59-2026-04-21-OT-7",
+              "ref": "processedPnr.contacts"
+            },
+            {
+              "type": "contact",
+              "id": "A4TE59-2026-04-21-OT-8",
+              "ref": "processedPnr.contacts"
+            },
+            {
+              "type": "contact",
+              "id": "A4TE59-2026-04-21-OT-9",
+              "ref": "processedPnr.contacts"
+            }
+          ]
+        }
+      }
+    ],
+    "products": [
+      {
+        "type": "product",
+        "subType": "SEATING",
+        "id": "A4TE59-2026-04-21-OT-47",
+        "seating": {
+          "code": "RQST",
+          "subType": "SPECIAL_SERVICE_REQUEST",
+          "serviceProvider": {
+            "code": "AC"
+          },
+          "status": "KK",
+          "creation": {
+            "dateTime": "2026-04-22T05:46:00Z",
+            "pointOfSale": {
+              "office": {
+                "id": "YULAC002A"
+              }
+            }
+          },
+          "seats": [
+            {
+              "number": "24K",
+              "characteristicCodes": [
+                "N",
+                "W"
+              ],
+              "traveler": {
+                "type": "stakeholder",
+                "id": "A4TE59-2026-04-21-PT-2",
+                "ref": "processedPnr.travelers"
+              }
+            }
+          ],
+          "priceCategory": {
+            "code": "A",
+            "subCode": "0B5"
+          }
+        },
+        "products": {
+          "collection": [
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-2",
+              "ref": "processedPnr.products"
+            }
+          ]
+        },
+        "travelers": {
+          "collection": [
+            {
+              "type": "stakeholder",
+              "id": "A4TE59-2026-04-21-PT-2",
+              "ref": "processedPnr.travelers"
+            }
+          ]
+        }
+      },
+      {
+        "type": "product",
+        "subType": "SERVICE",
+        "id": "A4TE59-2026-04-21-OT-29",
+        "service": {
+          "code": "OTHS",
+          "subType": "SPECIAL_SERVICE_REQUEST",
+          "serviceProvider": {
+            "code": "1A"
+          },
+          "creation": {
+            "dateTime": "2026-04-21T16:12:00Z",
+            "pointOfSale": {
+              "office": {
+                "id": "YULAC01RI"
+              }
+            }
+          },
+          "text": "CLEAR DUPLICATES BY YMQ 2359/22APR26 OR AC WILL AUTO-CANCEL"
+        },
+        "products": {
+          "collection": [
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-1",
+              "ref": "processedPnr.products"
+            },
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-2",
+              "ref": "processedPnr.products"
+            }
+          ]
+        },
+        "travelers": {
+          "collection": [
+            {
+              "type": "stakeholder",
+              "id": "A4TE59-2026-04-21-PT-2",
+              "ref": "processedPnr.travelers"
+            }
+          ]
+        }
+      },
+      {
+        "type": "product",
+        "subType": "SERVICE",
+        "id": "A4TE59-2026-04-21-OT-30",
+        "service": {
+          "code": "OTHS",
+          "subType": "SPECIAL_SERVICE_REQUEST",
+          "serviceProvider": {
+            "code": "1A"
+          },
+          "creation": {
+            "dateTime": "2026-04-21T16:12:00Z",
+            "pointOfSale": {
+              "office": {
+                "id": "YULAC01RI"
+              }
+            }
+          },
+          "text": "DUPLICATE OF A4QB4U-TL YMQ 2359/22APR26 BY AC"
+        },
+        "products": {
+          "collection": [
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-1",
+              "ref": "processedPnr.products"
+            },
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-2",
+              "ref": "processedPnr.products"
+            }
+          ]
+        },
+        "travelers": {
+          "collection": [
+            {
+              "type": "stakeholder",
+              "id": "A4TE59-2026-04-21-PT-2",
+              "ref": "processedPnr.travelers"
+            }
+          ]
+        }
+      },
+      {
+        "type": "product",
+        "subType": "SERVICE",
+        "id": "A4TE59-2026-04-21-OT-31",
+        "service": {
+          "code": "OTHS",
+          "subType": "SPECIAL_SERVICE_REQUEST",
+          "serviceProvider": {
+            "code": "1A"
+          },
+          "creation": {
+            "dateTime": "2026-04-21T16:12:00Z",
+            "pointOfSale": {
+              "office": {
+                "id": "YULAC01RI"
+              }
+            }
+          },
+          "text": "DUPLICATE OF A4RWO3-TL YMQ 2359/22APR26 BY AC"
+        },
+        "products": {
+          "collection": [
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-1",
+              "ref": "processedPnr.products"
+            },
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-2",
+              "ref": "processedPnr.products"
+            }
+          ]
+        },
+        "travelers": {
+          "collection": [
+            {
+              "type": "stakeholder",
+              "id": "A4TE59-2026-04-21-PT-2",
+              "ref": "processedPnr.travelers"
+            }
+          ]
+        }
+      },
+      {
+        "type": "product",
+        "subType": "SERVICE",
+        "id": "A4TE59-2026-04-21-OT-32",
+        "service": {
+          "code": "OTHS",
+          "subType": "SPECIAL_SERVICE_REQUEST",
+          "serviceProvider": {
+            "code": "1A"
+          },
+          "creation": {
+            "dateTime": "2026-04-21T16:12:00Z",
+            "pointOfSale": {
+              "office": {
+                "id": "YULAC01RI"
+              }
+            }
+          },
+          "text": "DUPLICATE OF A4SBFG-TL YMQ 2359/22APR26 BY AC"
+        },
+        "products": {
+          "collection": [
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-1",
+              "ref": "processedPnr.products"
+            },
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-2",
+              "ref": "processedPnr.products"
+            }
+          ]
+        },
+        "travelers": {
+          "collection": [
+            {
+              "type": "stakeholder",
+              "id": "A4TE59-2026-04-21-PT-2",
+              "ref": "processedPnr.travelers"
+            }
+          ]
+        }
+      },
+      {
+        "type": "product",
+        "subType": "SERVICE",
+        "id": "A4TE59-2026-04-21-OT-39",
+        "service": {
+          "code": "OTHS",
+          "subType": "SPECIAL_SERVICE_REQUEST",
+          "serviceProvider": {
+            "code": "1A"
+          },
+          "creation": {
+            "dateTime": "2026-04-21T16:56:00Z",
+            "pointOfSale": {
+              "office": {
+                "id": "YULAC01RI"
+              }
+            }
+          },
+          "text": "DUPLICATE OF A4ZOO8-TL YMQ 2359/22APR26 BY AC"
+        },
+        "products": {
+          "collection": [
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-1",
+              "ref": "processedPnr.products"
+            },
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-2",
+              "ref": "processedPnr.products"
+            }
+          ]
+        },
+        "travelers": {
+          "collection": [
+            {
+              "type": "stakeholder",
+              "id": "A4TE59-2026-04-21-PT-2",
+              "ref": "processedPnr.travelers"
+            }
+          ]
+        }
+      },
+      {
+        "type": "product",
+        "subType": "SERVICE",
+        "id": "A4TE59-2026-04-21-OT-41",
+        "service": {
+          "code": "OTHS",
+          "subType": "SPECIAL_SERVICE_REQUEST",
+          "serviceProvider": {
+            "code": "1A"
+          },
+          "creation": {
+            "dateTime": "2026-04-21T16:57:00Z",
+            "pointOfSale": {
+              "office": {
+                "id": "YULAC01RI"
+              }
+            }
+          },
+          "text": "DUPLICATE OF A4ZOYD-TL YMQ 2359/22APR26 BY AC"
+        },
+        "products": {
+          "collection": [
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-1",
+              "ref": "processedPnr.products"
+            },
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-2",
+              "ref": "processedPnr.products"
+            }
+          ]
+        },
+        "travelers": {
+          "collection": [
+            {
+              "type": "stakeholder",
+              "id": "A4TE59-2026-04-21-PT-2",
+              "ref": "processedPnr.travelers"
+            }
+          ]
+        }
+      },
+      {
+        "type": "product",
+        "subType": "AIR",
+        "id": "A4TE59-2026-04-21-ST-1",
+        "airSegment": {
+          "departure": {
+            "iataCode": "YYZ",
+            "terminal": "1",
+            "localDateTime": "2026-05-06T06:15:00"
+          },
+          "arrival": {
+            "iataCode": "YUL",
+            "localDateTime": "2026-05-06T07:45:00"
+          },
+          "carrierCode": "AC",
+          "number": "480",
+          "aircraft": {
+            "code": "333"
+          },
+          "class": "Y",
+          "cabin": "Y",
+          "operating": {
+            "carrierCode": "AC",
+            "number": "480",
+            "class": "Y"
+          },
+          "bookingDateTime": "2026-04-21T16:09:00Z",
+          "status": "HK",
+          "isOpenNumber": false,
+          "isInformational": false,
+          "yieldData": {
+            "subClass": {
+              "value": 0,
+              "pointOfSale": {
+                "office": {
+                  "systemCode": "AC"
+                },
+                "login": {
+                  "countryCode": "CA"
+                }
+              }
+            },
+            "bidPrice": 0,
+            "effectiveYield": 0,
+            "ondYield": {
+              "origin": "YYZ",
+              "destination": "YUL",
+              "yield": 0
+            }
+          }
+        },
+        "products": {
+          "collection": [
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-OT-29",
+              "ref": "processedPnr.products"
+            },
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-OT-30",
+              "ref": "processedPnr.products"
+            },
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-OT-31",
+              "ref": "processedPnr.products"
+            },
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-OT-32",
+              "ref": "processedPnr.products"
+            },
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-OT-39",
+              "ref": "processedPnr.products"
+            },
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-OT-41",
+              "ref": "processedPnr.products"
+            }
+          ]
+        },
+        "travelers": {
+          "collection": [
+            {
+              "type": "stakeholder",
+              "id": "A4TE59-2026-04-21-PT-2",
+              "ref": "processedPnr.travelers"
+            }
+          ]
+        }
+      },
+      {
+        "type": "product",
+        "subType": "AIR",
+        "id": "A4TE59-2026-04-21-ST-2",
+        "airSegment": {
+          "departure": {
+            "iataCode": "YUL",
+            "localDateTime": "2026-05-06T09:00:00"
+          },
+          "arrival": {
+            "iataCode": "YVR",
+            "terminal": "M",
+            "localDateTime": "2026-05-06T11:26:00"
+          },
+          "carrierCode": "AC",
+          "number": "303",
+          "aircraft": {
+            "code": "333"
+          },
+          "class": "Y",
+          "cabin": "Y",
+          "operating": {
+            "carrierCode": "AC",
+            "number": "303",
+            "class": "Y"
+          },
+          "bookingDateTime": "2026-04-21T16:10:00Z",
+          "status": "HK",
+          "isOpenNumber": false,
+          "isInformational": false,
+          "yieldData": {
+            "subClass": {
+              "value": 0,
+              "pointOfSale": {
+                "office": {
+                  "systemCode": "AC"
+                },
+                "login": {
+                  "countryCode": "CA"
+                }
+              }
+            },
+            "bidPrice": 0,
+            "effectiveYield": 0,
+            "ondYield": {
+              "origin": "YYZ",
+              "destination": "YVR",
+              "yield": 0
+            }
+          }
+        },
+        "products": {
+          "collection": [
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-OT-29",
+              "ref": "processedPnr.products"
+            },
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-OT-30",
+              "ref": "processedPnr.products"
+            },
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-OT-31",
+              "ref": "processedPnr.products"
+            },
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-OT-32",
+              "ref": "processedPnr.products"
+            },
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-OT-39",
+              "ref": "processedPnr.products"
+            },
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-OT-41",
+              "ref": "processedPnr.products"
+            },
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-OT-47",
+              "ref": "processedPnr.products"
+            }
+          ]
+        },
+        "travelers": {
+          "collection": [
+            {
+              "type": "stakeholder",
+              "id": "A4TE59-2026-04-21-PT-2",
+              "ref": "processedPnr.travelers"
+            }
+          ]
+        }
+      }
+    ],
+    "flightGroups": [
+      {
+        "type": "flight-group",
+        "id": "1",
+        "flightGroupType": "INTERACTIVE_MARRIAGE",
+        "segments": [
+          {
+            "product": {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-1",
+              "ref": "processedPnr.products"
+            },
+            "isDominant": true
+          },
+          {
+            "product": {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-2",
+              "ref": "processedPnr.products"
+            },
+            "isDominant": true
+          }
+        ]
+      }
+    ],
+    "flightItineraries": [
+      {
+        "type": "JOURNEY_SERVER_BOUND",
+        "originIataCode": "YYZ",
+        "destinationIataCode": "YVR",
+        "flights": [
+          {
+            "connectedFlights": {
+              "connectionType": "INTERACTIVE_MARRIAGE",
+              "connectionTimeDuration": "1H15M",
+              "flightSegments": [
+                {
+                  "type": "product",
+                  "id": "A4TE59-2026-04-21-ST-1",
+                  "ref": "processedPnr.products"
+                },
+                {
+                  "type": "product",
+                  "id": "A4TE59-2026-04-21-ST-2",
+                  "ref": "processedPnr.products"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "ticketingReferences": [
+      {
+        "type": "ticketing-reference",
+        "id": "A4TE59-2026-04-21-OT-35",
+        "referenceTypeCode": "FA",
+        "documents": [
+          {
+            "documentType": "ETICKET",
+            "primaryDocumentNumber": "0142124176182",
+            "status": "ISSUED",
+            "issuanceLocalDate": "2026-04-21",
+            "issuingOriginatorOffice": {
+              "id": "YMQAC010C",
+              "iataNumber": "69990874",
+              "systemCode": "AC"
+            },
+            "quotationTotalFare": {
+              "amount": "1737.41",
+              "currency": "CAD"
+            },
+            "coupons": [
+              {
+                "sequenceNumber": 1,
+                "product": {
+                  "type": "product",
+                  "id": "A4TE59-2026-04-21-ST-1",
+                  "ref": "processedPnr.products"
+                }
+              },
+              {
+                "sequenceNumber": 2,
+                "product": {
+                  "type": "product",
+                  "id": "A4TE59-2026-04-21-ST-2",
+                  "ref": "processedPnr.products"
+                }
+              }
+            ]
+          }
+        ],
+        "isInfant": false,
+        "traveler": {
+          "type": "stakeholder",
+          "id": "A4TE59-2026-04-21-PT-2",
+          "ref": "processedPnr.travelers"
+        },
+        "products": {
+          "collection": [
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-1",
+              "ref": "processedPnr.products"
+            },
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-2",
+              "ref": "processedPnr.products"
+            }
+          ]
+        }
+      }
+    ],
+    "contacts": [
+      {
+        "type": "contact",
+        "id": "A4TE59-2026-04-21-OT-7",
+        "email": {
+          "address": "SK@GMAIL.COM"
+        },
+        "purpose": [
+          "STANDARD"
+        ],
+        "travelers": {
+          "collection": [
+            {
+              "type": "stakeholder",
+              "id": "A4TE59-2026-04-21-PT-2",
+              "ref": "processedPnr.travelers"
+            }
+          ]
+        }
+      },
+      {
+        "type": "contact",
+        "id": "A4TE59-2026-04-21-OT-8",
+        "email": {
+          "address": "SK@GMAIL.COM"
+        },
+        "language": "EN",
+        "purpose": [
+          "NOTIFICATION"
+        ],
+        "travelers": {
+          "collection": [
+            {
+              "type": "stakeholder",
+              "id": "A4TE59-2026-04-21-PT-2",
+              "ref": "processedPnr.travelers"
+            }
+          ]
+        }
+      },
+      {
+        "type": "contact",
+        "id": "A4TE59-2026-04-21-OT-9",
+        "address": {
+          "category": "PERSONAL",
+          "lines": [
+            "TN"
+          ],
+          "postalCode": "M5T0G7",
+          "countryCode": "CA",
+          "cityName": "TN",
+          "stateCode": "ON"
+        },
+        "purpose": [
+          "BILLING"
+        ],
+        "travelers": {
+          "collection": [
+            {
+              "type": "stakeholder",
+              "id": "A4TE59-2026-04-21-PT-2",
+              "ref": "processedPnr.travelers"
+            }
+          ]
+        }
+      }
+    ],
+    "automatedProcesses": [
+      {
+        "type": "automated-process",
+        "id": "A4TE59-2026-04-21-OT-34",
+        "code": "OK",
+        "dateTime": "2026-04-21T00:00:00",
+        "office": {
+          "id": "YMQAC010C"
+        },
+        "applicableCarrierCode": "AC",
+        "isApplicableToInfants": false,
+        "travelers": {
+          "collection": [
+            {
+              "type": "stakeholder",
+              "id": "A4TE59-2026-04-21-PT-2",
+              "ref": "processedPnr.travelers"
+            }
+          ]
+        },
+        "products": {
+          "collection": [
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-1",
+              "ref": "processedPnr.products"
+            },
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-2",
+              "ref": "processedPnr.products"
+            }
+          ]
+        }
+      }
+    ],
+    "paymentMethods": [
+      {
+        "type": "payment-method",
+        "id": "A4TE59-2026-04-21-OT-20",
+        "formsOfPayment": [
+          {
+            "code": "CC",
+            "fopIndicator": "NEW",
+            "freeText": "CCCA555534XXXXXX1115/0330*CV/CAD1737.41/A069144"
+          }
+        ],
+        "isInfant": false,
+        "travelers": {
+          "collection": [
+            {
+              "type": "stakeholder",
+              "id": "A4TE59-2026-04-21-PT-2",
+              "ref": "processedPnr.travelers"
+            }
+          ]
+        },
+        "products": {
+          "collection": [
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-1",
+              "ref": "processedPnr.products"
+            },
+            {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-2",
+              "ref": "processedPnr.products"
+            }
+          ]
+        }
+      }
+    ],
+    "fareElements": [
+      {
+        "type": "fare-element",
+        "id": "A4TE59-2026-04-21-OT-11",
+        "code": "FE",
+        "text": "PAX AC ONLY/FREE CHG/FREE REF -BG:AC"
+      },
+      {
+        "type": "fare-element",
+        "id": "A4TE59-2026-04-21-OT-12",
+        "text": "PAX AC"
+      }
+    ],
+    "quotations": [
+      {
+        "type": "quotation-record",
+        "id": "A4TE59-2026-04-21-QT-1",
+        "recordType": "TST",
+        "isManual": false,
+        "documentType": "ETICKET",
+        "issuanceState": "FIRST_ISSUE",
+        "creation": {
+          "date": "2026-04-21",
+          "pointOfSale": {
+            "office": {
+              "id": "YMQAC010C"
+            }
+          }
+        },
+        "modification": {
+          "date": "2026-04-21",
+          "pointOfSale": {
+            "office": {
+              "id": "YMQAC010C"
+            }
+          }
+        },
+        "lastTicketingDate": "2026-04-22",
+        "originCityCode": "YTO",
+        "destinationCityCode": "YVR",
+        "recordFlags": [
+          "DOMESTIC"
+        ],
+        "pricingFlags": [
+          "PRIVATE_FARE"
+        ],
+        "fareCalculation": {
+          "pricingIndicator": "F",
+          "text": "YTO AC X/YMQ AC YVR Q YTOYVR3.00Q YTOYVR42.00 1439.00YZ0NZCLT CAD1484.00END",
+          "isManual": false
+        },
+        "pricing": {
+          "elementaryPrices": [
+            {
+              "amount": "1737.41",
+              "currency": "CAD",
+              "elementaryPriceType": "TOTAL"
+            },
+            {
+              "amount": "1484.00",
+              "currency": "CAD",
+              "elementaryPriceType": "BASE_FARE"
+            },
+            {
+              "amount": "1737.41",
+              "currency": "CAD",
+              "elementaryPriceType": "GRAND_TOTAL"
+            }
+          ],
+          "taxes": [
+            {
+              "taxAmount": {
+                "amount": "9.46",
+                "currency": "CAD"
+              },
+              "code": "CA",
+              "nature": "AE",
+              "category": "NEW"
+            },
+            {
+              "taxAmount": {
+                "amount": "194.15",
+                "currency": "CAD"
+              },
+              "code": "RC",
+              "nature": "AB",
+              "category": "NEW"
+            },
+            {
+              "taxAmount": {
+                "amount": "49.80",
+                "currency": "CAD"
+              },
+              "code": "W1",
+              "nature": "AE",
+              "category": "NEW"
+            }
+          ]
+        },
+        "couponPricings": [
+          {
+            "fareBasis": {
+              "primaryCode": "YZ0",
+              "fareBasisCode": "NZCLT"
+            },
+            "baggageAllowance": {
+              "quantity": 2
+            },
+            "product": {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-1",
+              "ref": "processedPnr.products"
+            }
+          },
+          {
+            "fareBasis": {
+              "primaryCode": "YZ0",
+              "fareBasisCode": "NZCLT"
+            },
+            "baggageAllowance": {
+              "quantity": 2
+            },
+            "isConnection": true,
+            "product": {
+              "type": "product",
+              "id": "A4TE59-2026-04-21-ST-2",
+              "ref": "processedPnr.products"
+            }
+          }
+        ],
+        "fareElements": {
+          "collection": [
+            {
+              "type": "fare-element",
+              "id": "A4TE59-2026-04-21-OT-11",
+              "ref": "processedPnr.fareElements"
+            },
+            {
+              "type": "fare-element",
+              "id": "A4TE59-2026-04-21-OT-12",
+              "ref": "processedPnr.fareElements"
+            },
+            {
+              "type": "payment-method",
+              "id": "A4TE59-2026-04-21-OT-20",
+              "ref": "processedPnr.paymentMethods"
+            }
+          ]
+        },
+        "travelers": {
+          "collection": [
+            {
+              "type": "stakeholder",
+              "id": "A4TE59-2026-04-21-PT-2",
+              "ref": "processedPnr.travelers"
+            }
+          ]
+        }
+      }
+    ],
+    "deliveryData": {
+      "passengerDeliveries": [
+        {
+          "type": "passenger-delivery",
+          "id": "A4TE59-2026-04-21-OT-42",
+          "sourceId": "610DE629000431F2",
+          "deliveryAirlineCode": "AC",
+          "personalDetails": {
+            "passengerTypeCode": "ADT",
+            "dateOfBirth": "1991-07-27",
+            "gender": "MALE"
+          },
+          "traveler": {
+            "type": "stakeholder",
+            "id": "A4TE59-2026-04-21-PT-2",
+            "ref": "processedPnr.travelers"
+          }
+        }
+      ],
+      "segmentDeliveries": [
+        {
+          "type": "segment-delivery",
+          "id": "A4TE59-2026-04-21-OT-1",
+          "isInfant": false,
+          "traveler": {
+            "type": "stakeholder",
+            "id": "A4TE59-2026-04-21-PT-2",
+            "ref": "processedPnr.travelers"
+          },
+          "product": {
+            "type": "product",
+            "id": "A4TE59-2026-04-21-ST-1",
+            "ref": "processedPnr.products"
+          }
+        },
+        {
+          "type": "segment-delivery",
+          "id": "A4TE59-2026-04-21-OT-43",
+          "segment": {
+            "departure": {
+              "iataCode": "YUL",
+              "localDateTime": "2026-05-06T09:00:00"
+            },
+            "arrival": {
+              "iataCode": "YVR"
+            },
+            "carrierCode": "AC",
+            "number": "303",
+            "class": "Y",
+            "isOpenNumber": false,
+            "isInformational": false
+          },
+          "tickets": [
+            {
+              "documentType": "ETICKET",
+              "primaryDocumentNumber": "0142124176182",
+              "documentNumber": "0142124176182",
+              "coupons": [
+                {
+                  "number": 2
+                }
+              ],
+              "associationStatus": "ASSOCIATED"
+            }
+          ],
+          "isInfant": false,
+          "regulatoryChecks": [
+            {
+              "regulatoryProgram": {
+                "name": "AQQ"
+              },
+              "statuses": [
+                {
+                  "statusType": "AQQ",
+                  "statusCode": "X"
+                }
+              ]
+            },
+            {
+              "statuses": [
+                {
+                  "statusType": "TCS",
+                  "statusCode": "CTN"
+                },
+                {
+                  "statusType": "APS",
+                  "statusCode": "Y"
+                }
+              ]
+            }
+          ],
+          "traveler": {
+            "type": "stakeholder",
+            "id": "A4TE59-2026-04-21-PT-2",
+            "ref": "processedPnr.travelers"
+          },
+          "product": {
+            "type": "product",
+            "id": "A4TE59-2026-04-21-ST-2",
+            "ref": "processedPnr.products"
+          }
+        }
+      ],
+      "legDeliveries": [
+        {
+          "type": "leg-delivery",
+          "id": "A4TE59-2026-04-21-OT-44",
+          "departure": {
+            "iataCode": "YUL"
+          },
+          "arrival": {
+            "iataCode": "YVR"
+          },
+          "acceptance": {
+            "origin": "AIRLINE",
+            "channel": "JFE",
+            "status": "ACCEPTED",
+            "securityNumber": "YUL-001",
+            "isForceAccepted": false,
+            "isFrozen": false,
+            "handlingCarrier": "AC"
+          },
+          "regrade": {
+            "regradeType": "NO_REGRADE"
+          },
+          "seating": {
+            "seat": {
+              "number": "024K",
+              "characteristicCodes": [
+                "N",
+                "W"
+              ]
+            }
+          },
+          "onload": {
+            "cabinCode": "Y"
+          },
+          "boarding": {
+            "boardingStatus": "BOARDED",
+            "boardingPassPrintStatus": "PRINTED",
+            "trackingLog": {
+              "localDateTime": "2026-04-22T01:47:00"
+            }
+          },
+          "isInfant": false,
+          "isNorec": false,
+          "isGoShow": false,
+          "hasBags": false,
+          "traveler": {
+            "type": "stakeholder",
+            "id": "A4TE59-2026-04-21-PT-2",
+            "ref": "processedPnr.travelers"
+          },
+          "product": {
+            "type": "product",
+            "id": "A4TE59-2026-04-21-ST-2",
+            "ref": "processedPnr.products"
+          }
+        }
+      ]
+    },
+    "financialValues": [
+      {
+        "id": "A4TE59-2026-04-21-OT-2",
+        "companyId": "AC",
+        "documentEnvelope": {
+          "payload": "PNR,1,AC,CAD,,20260421,00000000006DsXxah74NSbjvuttr04jw=YYZ,,=0,0,0,0,0=1=2=1,AC,0480,20260506,0615,YYZYUL,Y,Y,HK,1,0,0,AC,AC,0480,Y,235,0.00,0,0=1,AC,0303,20260506,0900,YULYVR,Y,Y,HK,1,0,0,AC,AC,0303,Y,234,0.00,1,0=1=1,20260421,161208,YYZ,O,CA,YYZ,6999087,AC,,Y,,0.00,0.00,0.00,0.00=3=",
+          "metaData": {
+            "documentType": "PROS_RTDP"
+          }
+        }
+      }
+    ]
+  },
+  "previousRecord": [
+    {
+      "op": "remove",
+      "path": "/deliveryData/legDeliveries/0/boarding/trackingLog"
+    },
+    {
+      "op": "replace",
+      "path": "/deliveryData/legDeliveries/0/boarding/boardingPassPrintStatus",
+      "value": "NEEDS_PRINTING"
+    },
+    {
+      "op": "replace",
+      "path": "/deliveryData/legDeliveries/0/boarding/boardingStatus",
+      "value": "NOT_BOARDED"
+    },
+    {
+      "op": "replace",
+      "path": "/lastModification/dateTime",
+      "value": "2026-04-22T05:46:00Z"
+    },
+    {
+      "op": "replace",
+      "path": "/version",
+      "value": "9"
+    }
+  ],
+  "events": {
+    "recordDomain": "PNR",
+    "recordId": "A4TE59-2026-04-21",
+    "originFeedTimeStamp": "2026-04-22T05:47:00Z",
+    "events": [
+      {
+        "origin": "COMPARISON",
+        "eventType": "UPDATED",
+        "currentPath": "",
+        "previousPath": ""
+      },
+      {
+        "origin": "COMPARISON",
+        "eventType": "UPDATED",
+        "currentPath": "/deliveryData/legDeliveries/0/boarding/boardingStatus",
+        "previousPath": "/deliveryData/legDeliveries/0/boarding/boardingStatus"
+      },
+      {
+        "origin": "COMPARISON",
+        "eventType": "UPDATED",
+        "currentPath": "/lastModification/dateTime",
+        "previousPath": "/lastModification/dateTime"
+      },
+      {
+        "origin": "COMPARISON",
+        "eventType": "UPDATED",
+        "currentPath": "/deliveryData",
+        "previousPath": "/deliveryData"
+      },
+      {
+        "origin": "COMPARISON",
+        "eventType": "UPDATED",
+        "currentPath": "/deliveryData/legDeliveries/0/boarding",
+        "previousPath": "/deliveryData/legDeliveries/0/boarding"
+      },
+      {
+        "origin": "COMPARISON",
+        "eventType": "UPDATED",
+        "currentPath": "/deliveryData/legDeliveries/0/boarding/boardingPassPrintStatus",
+        "previousPath": "/deliveryData/legDeliveries/0/boarding/boardingPassPrintStatus"
+      },
+      {
+        "origin": "COMPARISON",
+        "eventType": "UPDATED",
+        "currentPath": "/lastModification",
+        "previousPath": "/lastModification"
+      },
+      {
+        "origin": "COMPARISON",
+        "eventType": "UPDATED",
+        "currentPath": "/deliveryData/legDeliveries/0",
+        "previousPath": "/deliveryData/legDeliveries/0"
+      },
+      {
+        "origin": "COMPARISON",
+        "eventType": "UPDATED",
+        "currentPath": "/version",
+        "previousPath": "/version"
+      },
+      {
+        "origin": "COMPARISON",
+        "eventType": "CREATED",
+        "currentPath": "/deliveryData/legDeliveries/0/boarding/trackingLog"
+      },
+      {
+        "origin": "COMPARISON",
+        "eventType": "UPDATED",
+        "currentPath": "/deliveryData/legDeliveries",
+        "previousPath": "/deliveryData/legDeliveries"
+      }
+    ]
+  }
+}
